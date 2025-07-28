@@ -1,0 +1,79 @@
+---
+title: "This is my second post"
+date: 2023-07-19T09:39:58+05:30
+draft: false
+categories:
+  - Java
+tags:
+  - java
+  - spring-boot
+---
+
+In this guide, you will learn how to write HelloWorld program in Java.
+
+== Prerequisites
+* Java 17+
+* Your favorite IDE (Intellij IDEA, Eclipse, NetBeans, VS Code)
+
+== Say Hello in Java
+
+Here is how to write code snippet using Asciidoc format.
+
+[source,java]
+----
+class Hello {
+    String hello() {
+        return "Hello";
+    }
+}
+----
+
+Here is how to write code snippet using Hugo format.
+
+{{< highlight java >}}
+class Hello {
+    String hello() {
+        return "Hello";
+    }
+}
+{{< /highlight >}}
+
+Here is how to include code snippet from a remote file using Asciidoc.
+
+[source,java]
+----
+include::https://raw.githubusercontent.com/sivaprasadreddy/testcontainers-samples/main/spring-boot-jpa-demo/src/main/java/com/sivalabs/tcdemo/SpringBootJpaApplication.java[]
+----
+
+[NOTE]
+====
+This is a NOTE
+====
+
+
+[CAUTION]
+====
+This is a CAUTION
+====
+
+
+[WARNING]
+====
+This is a WARNING
+====
+
+
+[TIP]
+====
+This is a TIP
+====
+
+
+[IMPORTANT]
+====
+This is IMPORTANT
+====
+
+== Summary
+
+To learn more interesting things, visit https://www.sivalabs.in
