@@ -6,3 +6,4 @@ Improved handling for partial responses
 Cleaned up repeated mapping logic
 Fixed a small issue with default values
 Adjusted validation around request parameters
+Removed an unnecessary conversion step
